@@ -38,7 +38,7 @@ axis[1, 0].plot(t, differencesPrecalc)
 axis[1, 0].set_title("Time difference precalc")
 
 axis[1, 1].plot(t, differencesHardcode)
-axis[1, 1].set_title("Time difference precalc")
+axis[1, 1].set_title("Time difference hardcode")
 
 # Combine all the operations and display
 plt.show()
